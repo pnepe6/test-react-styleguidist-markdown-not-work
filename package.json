@@ -1,0 +1,28 @@
+{
+  "name": "test-react-styleguidist-markdown-not-work",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-styleguidist": "^6.5.0",
+    "markdown-to-jsx": "^6.6.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.20.3",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1"
+  }
+}
